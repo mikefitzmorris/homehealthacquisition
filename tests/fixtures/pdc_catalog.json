@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Home Health Care Agencies",
+    "modified": "2026-04-15",
+    "distribution": [
+      {"identifier": "dist-hha-2026-04", "format": "csv", "title": "Home Health Care Agencies"}
+    ]
+  },
+  {
+    "title": "Home Health Care - National Data",
+    "modified": "2026-04-15",
+    "distribution": [{"identifier": "dist-hh-national", "format": "csv"}]
+  },
+  {
+    "title": "Home Health Care - Measure Dates",
+    "modified": "2026-01-22",
+    "distribution": [{"identifier": "dist-hh-measure-dates", "format": "csv"}]
+  },
+  {
+    "title": "Nursing Home Provider Information",
+    "modified": "2026-04-01",
+    "distribution": [{"identifier": "dist-nh-provider", "format": "csv"}]
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "_comment": [
+    "Which CMS datasets to pull. Titles are matched case-insensitively as",
+    "substrings against the live CMS catalog, so partial titles are fine and",
+    "preferred -- CMS appends dates and version suffixes to titles.",
+    "Run `hhpanel discover` after editing to confirm each one still resolves."
+  ],
+  "sources": [
+    {
+      "key": "hha_quality",
+      "portal": "pdc",
+      "title_match": "Home Health Care Agencies",
+      "role": "Outcome variables: quality of patient care star rating, HHCAHPS survey star rating, declared ownership type.",
+      "required": true
+    },
+    {
+      "key": "hha_owners",
+      "portal": "dcat",
+      "title_match": "Home Health Agency All Owners",
+      "role": "Treatment variable: owner roster per enrollment, including owner type and percentage.",
+      "required": true
+    },
+    {
+      "key": "hha_enrollments",
+      "portal": "dcat",
+      "title_match": "Home Health Agency Enrollments",
+      "role": "Bridge table: enrollment id -> CCN. Required to join owners to Care Compare.",
+      "required": true
+    },
+    {
+      "key": "hha_measure_dates",
+      "portal": "pdc",
+      "title_match": "Home Health Care - Measure Dates",
+      "role": "Provenance: the measurement period each Care Compare refresh actually covers.",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "dataset": [
+    {
+      "title": "Home Health Agency All Owners",
+      "modified": "2026-04-01",
+      "distribution": [
+        {"format": "API", "accessURL": "https://data.cms.gov/data-api/v1/dataset/9767cb68-3f34-4c47-9c5f-70a4a1b0b6a2/data"},
+        {"format": "csv", "downloadURL": "https://data.cms.gov/sites/default/files/hha_owners.csv"}
+      ]
+    },
+    {
+      "title": "Home Health Agency Enrollments",
+      "modified": "2026-04-01",
+      "distribution": [
+        {"format": "API", "accessURL": "https://data.cms.gov/data-api/v1/dataset/2a1d8b6c-77aa-4f1e-9e1b-5c3a44b21f90/data"}
+      ]
+    },
+    {
+      "title": "Hospice All Owners",
+      "modified": "2026-04-01",
+      "distribution": [
+        {"format": "API", "accessURL": "https://data.cms.gov/data-api/v1/dataset/11111111-2222-3333-4444-555555555555/data"}
+      ]
+    }
+  ]
+}

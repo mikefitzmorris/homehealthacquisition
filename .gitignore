@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Data is reproducible from the API; never commit it.
+data/raw/
+data/cache/
+data/interim/
+data/processed/
+!data/**/.gitkeep
+
+.DS_Store
