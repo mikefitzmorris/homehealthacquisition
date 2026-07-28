@@ -4,7 +4,7 @@
 
 A small, reproducible pipeline that builds a longitudinal agency-level panel
 linking *who owns a home health agency* to *how that agency scores on Care
-Compare* — and tracks what happens to quality after ownership changes hands.
+Compare*, and tracks what happens to quality after ownership changes hands.
 
 ---
 
